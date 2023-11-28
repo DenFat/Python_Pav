@@ -8,11 +8,21 @@ def get_answer(digit, message):       # Проверка на корректны
 
 
 
-print(get_answer('1, 2', 'Выберите нужный пункт меню: '))
-
-
 def get_rate(minimum, maximum,message):     # Проверка ставки на корректность
-    pass
+    rate = -1
+    while rate < minimum or rate > maximum:
+        answer = input(message)
+
+        if answer.isdigit():
+            rate = int(answer)
+            if rate > maximum:
+                print(Fore.RED + "У вас не достоаточно денег для  ставки!\n")
+        else:
+            print(Fore.RED + "Введите корректное число для ставки\n")
+    return rate
+
+
+print(get_rate(1, 1000, Fore.GREEN + 'Сдлеайте савку от 1 до 1000 рублей: '))
 
 
 def color(color_number):        # Определение номера цвета текста
@@ -38,8 +48,7 @@ def colorText(color_number, line):      # вывод информации в ц�
     print(color(color_number) + line)
 
 
-for i in range(1,9):
-    colorText(i, 'Текст')
+
 
 def victory(result):      # реакция на победу
     pass
@@ -47,3 +56,17 @@ def victory(result):      # реакция на победу
 
 def loss(result):     # реакция на проигрыш
     pass
+
+def main():
+    colorText(7, f'{" "*35}Добро пожаловать в "Игровой клуб"')
+    print(color(6) + '\n1. Слот-машина')
+    print(color(6) + '2. Выход')
+
+    player_choice = (get_answer('1, 2', 'Выберите нужный пункт меню: '))
+    # print(get_rate(1, 1000, Fore.GREEN + 'Сдлеайте савку от 1 до 1000 рублей: '))
+    if player_choice == '1':
+        pass
+    elif player_choice == '2':
+        print('Всего хорошего! Ждем обратно')
+
+main()
