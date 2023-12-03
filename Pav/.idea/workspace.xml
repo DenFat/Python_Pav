@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5edf477a-7cc3-458b-a066-4ef1022d898f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/I__часть.Основы Python/0 Блок_Мои проекты/Игровой клуб(hard)/Color.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/I__часть.Основы Python/0 Блок_Мои проекты/Игровой клуб(hard)/PlayerChoice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/I__часть.Основы Python/0 Блок_Мои проекты/Игровой клуб(hard)/SlotMachine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/I__часть.Основы Python/0 Блок_Мои проекты/Игровой клуб(hard)/VictoryDefeat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I__часть.Основы Python/VI Блок_Массивы (коллекции) данных/Свловари(dict)/Словари как БД.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/I__часть.Основы Python/0 Блок_Мои проекты/Игровой клуб(hard)/Игровой клуб.py" beforeDir="false" afterPath="$PROJECT_DIR$/I__часть.Основы Python/0 Блок_Мои проекты/Игровой клуб(hard)/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/I__часть.Основы Python/VI Блок_Массивы (коллекции) данных/методы.py" beforeDir="false" afterPath="$PROJECT_DIR$/I__часть.Основы Python/VI Блок_Массивы (коллекции) данных/Свловари(dict)/методы.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +47,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PavelPython\Pav\I__часть.Основы Python\VI Блок_Массивы (коллекции) данных\Свловари(dict)" />
       <recent name="D:\PavelPython\Pav\I__часть.Основы Python\VI Блок_Массивы (коллекции) данных\Шпаргалки" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SlotMachine">
-    <configuration name="Работа с данными файлов" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Словари как БД">
+    <configuration name="Словари как БД" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pav" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,11 +60,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/I__часть.Основы Python/VII Блок_Файлы" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/I__часть.Основы Python/VI Блок_Массивы (коллекции) данных/Свловари(dict)" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/I__часть.Основы Python/VII Блок_Файлы/Работа с данными файлов.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/I__часть.Основы Python/VI Блок_Массивы (коллекции) данных/Свловари(dict)/Словари как БД.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Словари как БД" />
         <item itemvalue="Python.SlotMachine" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.Синтаксис" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.Работа с данными файлов" />
       </list>
     </recent_temporary>
   </component>
